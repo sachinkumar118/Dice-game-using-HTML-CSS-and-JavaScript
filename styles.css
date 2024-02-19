@@ -1,41 +1,46 @@
+/* Styling for the main content container */
 .container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
+  width: 90%; /* Set the width of the container */
+  margin: auto; /* Center the container horizontally */
+  text-align: center; /* Center the text within the container */
 }
 
+/* Styling for each dice container */
 .dice {
-  text-align: center;
-  display: inline-block;
-
+  text-align: center; /* Center the text within the dice container */
+  display: inline-block; /* Display dice containers side by side */
 }
 
+/* Styling for the body of the document */
 body {
-  background-color: #393E46;
+  background-color: #393E46; /* Set the background color for the body */
 }
 
+/* Styling for the main heading (h1) */
 h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+  margin: 30px; /* Set margin for the heading */
+  font-family: 'Lobster', cursive; /* Use Lobster font for the heading */
+  text-shadow: 5px 0 #232931; /* Add a subtle text shadow */
+  font-size: 8rem; /* Set font size for the heading */
+  color: #4ECCA3; /* Set text color for the heading */
 }
 
+/* Styling for paragraphs (p) */
 p {
-  font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  font-size: 2rem; /* Set font size for paragraphs */
+  color: #4ECCA3; /* Set text color for paragraphs */
+  font-family: 'Indie Flower', cursive; /* Use Indie Flower font for paragraphs */
 }
 
+/* Styling for images */
 img {
-  width: 80%;
+  width: 80%; /* Set the width of images within dice containers */
 }
 
+/* Styling for the footer */
 footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  margin-top: 5%; /* Set margin at the top of the footer */
+  color: #EEEEEE; /* Set text color for the footer */
+  text-align: center; /* Center the text within the footer */
+  font-family: 'Indie Flower', cursive; /* Use Indie Flower font for the footer */
 }
